@@ -1,6 +1,33 @@
+@media (max-width: 600px) {
+    .icone-inicio {
+        width: 75px;
+    }
+
+    .prox-icon01 {
+        position: fixed;
+        left: 43px;
+        top: 43px;
+    }
+
+    .prox-icon02 {
+        position: fixed;
+        left: 43px;
+        top: 143px;
+    }
+}
+
 .icone-inicio {
     width: 35px;
+}
+
+.prox-icon01 {
     position: fixed;
-    left: 43px;
-    top: 43px;
+    left: 35px;
+    top: 35px;
+}
+
+.prox-icon02 {
+    position: fixed;
+    left: 35px;
+    top: 103px;
 }
