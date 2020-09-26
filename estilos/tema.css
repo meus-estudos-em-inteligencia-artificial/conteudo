@@ -396,9 +396,9 @@ ul li {
 
 ol li {
     list-style-position: inside;
-    list-style: decimal;
+    list-style: none;
     padding: 26px 30px 44px 30px;
-    margin-left: 36px;
+    margin-left: 0;
     margin-bottom: 21px;
     height: 66px;
     background-color: darkgray;
