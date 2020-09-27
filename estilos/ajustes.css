@@ -2,18 +2,6 @@
     .icone-inicio {
         width: 75px;
     }
-
-    .prox-icon01 {
-        position: fixed;
-        left: 43px;
-        top: 43px;
-    }
-
-    .prox-icon02 {
-        position: fixed;
-        left: 43px;
-        top: 143px;
-    }
 }
 
 .icone-inicio {
@@ -22,12 +10,12 @@
 
 .prox-icon01 {
     position: fixed;
-    left: 35px;
-    top: 35px;
+    left: 15px;
+    top: 15px;
 }
 
 .prox-icon02 {
     position: fixed;
-    left: 35px;
-    top: 103px;
+    left: 15px;
+    top: 65px;
 }

@@ -23,11 +23,11 @@
 }
 
 .learn-more-text {
-    font-family: "Roboto";
     fill: #fff;
     pointer-events: none;
     font-size: 14px;
     transition: all 250ms ease-in;
+    text-shadow: none;
 }
 
 .center {
@@ -41,10 +41,10 @@
 }
 
 .nav-copy {
-    font-family: "Roboto";
     fill: #fff;
     fill-opacity: 1;
     transition: all 250ms ease-in;
+    text-shadow: none;
 }
 
 .nav-copy.changing {
