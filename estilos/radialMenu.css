@@ -116,11 +116,9 @@
 }
 
 .infoExtraEfeitos2 {
-    font-size: 17px;
-    color: white;
-    text-align: center;
-    text-shadow: none;
-    line-height: 30px;
+    width: 45%;
+    height: auto;
+    transform: rotate(150deg);
 }
 
 #estatistica:target {
