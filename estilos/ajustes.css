@@ -19,3 +19,15 @@
     left: 15px;
     top: 65px;
 }
+
+.marina {
+    border-radius: 51%;
+    width: 90px;
+    float: left;
+    margin-right: 12px;
+}
+
+.referencias {
+    font-size: 13px;
+    color: #aaa;
+}
