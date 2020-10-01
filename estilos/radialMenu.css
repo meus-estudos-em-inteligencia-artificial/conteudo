@@ -24,9 +24,96 @@
 .wrap a div {
     height: 100%;
     background-size: cover;
-    opacity: .5;
+    opacity: 0.15;
     transition: opacity .5s;
     border-radius: inherit;
+}
+
+.col-24 {
+    width: 24%;
+    display: inline-block;
+}
+
+.col-74 {
+    width: 74%;
+    display: inline-block;
+    text-shadow: none;
+}
+
+.row-98 {
+    width: 98%;
+    display: inline-block;
+}
+
+.estatisticaTemaImg {
+    border-radius: 36px;
+    height: 72px;
+}
+
+.estatisticaTemaTitulo1 {
+    position: relative;
+    top: -25px;
+    left: 13px;
+}
+
+.estatisticaTemaTitulo2 {
+    position: relative;
+    top: -11px;
+    left: 13px;
+}
+
+.estatisticaTemaTitulo3 {
+    position: relative;
+    top: -25px;
+    left: -25px
+}
+
+.estatisticaTemaTitulo4 {
+    position: relative;
+    top: -25px;
+    left: 5px;
+}
+
+
+@media (max-width: 600px) {
+    .estatisticaTemaTitulo1 {
+        position: relative;
+        top: -12px;
+        left: 8px;
+    }
+
+    .estatisticaTemaTitulo2 {
+        position: relative;
+        top: -5px;
+        left: 13px;
+        font-size: 18px;
+    }
+
+    .estatisticaTemaTitulo3 {
+        position: relative;
+        top: -29px;
+        left: 6px;
+    }
+
+    .estatisticaTemaTitulo4 {
+        position: relative;
+        top: -12px;
+        left: 6px;
+    }
+
+    .estatisticaTemaImgMod {
+        position: relative;
+        top: -1px;
+        left: 2px;
+    }
+}
+
+.estatisticaTemaFundo {
+    background-color: #585247;
+    padding: 7px 6px 0px;
+    height: 79px;
+    border-radius: 40px;
+    margin-bottom: 20px;
 }
 
 .wrap a:nth-child(1) {
@@ -99,8 +186,6 @@
     transform: translateZ(0px);
 }
 
-
-
 .radialMenu span:hover+.wrap, .wrap:hover {
     transform: scale(.8) translateZ(0px);
     opacity: 1;
@@ -123,7 +208,7 @@
 
 #estatistica:target {
     border: 1px solid #6d6d6d;
-    border-radius: 6px;
+    border-radius: 60px 60px 6px 6px;
     padding: 15px;
     margin-bottom: 20px;
     display: block;
@@ -135,7 +220,7 @@
 
  #amostragem:target {
     border: 1px solid #6d6d6d;
-    border-radius: 6px;
+    border-radius: 60px 60px 6px 6px;
     padding: 15px;
     margin-bottom: 20px;
     display: block;
@@ -147,7 +232,7 @@
  
  #descritiva:target {
     border: 1px solid #6d6d6d;
-    border-radius: 6px;
+    border-radius: 60px 60px 6px 6px;
     padding: 15px;
     margin-bottom: 20px;
     display: block;
@@ -159,7 +244,7 @@
 
  #probabilidade:target {
     border: 1px solid #6d6d6d;
-    border-radius: 6px;
+    border-radius: 60px 60px 6px 6px;
     padding: 15px;
     margin-bottom: 20px;
     display: block;
@@ -171,7 +256,7 @@
 
  #inferencial:target {
     border: 1px solid #6d6d6d;
-    border-radius: 6px;
+    border-radius: 60px 60px 6px 6px;
     padding: 15px;
     margin-bottom: 20px;
     display: block;
