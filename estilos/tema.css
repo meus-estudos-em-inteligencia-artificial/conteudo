@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Chivo:900");
+
 .highlight table td {
     padding: 5px;
 }
@@ -159,8 +160,8 @@ a:hover {
 }
 
 header {
-    padding-top: 35px;
-    padding-bottom: 25px;
+    padding: 10px;
+    width: 88%;
 }
 
 header h1 {
@@ -170,6 +171,7 @@ header h1 {
     line-height: 1.2;
     color: #303030;
     letter-spacing: -1px;
+    width: 80%;
 }
 
 header h2 {
@@ -181,9 +183,8 @@ header h2 {
 }
 
 #container {
-    min-height: 595px;
+    min-height: 490px;
     background: transparent url(../img/highlight-bg.jpg) 50% 0 no-repeat;
-    margin-left: 69px;
 } 
 
 .inner {
@@ -411,13 +412,12 @@ dl dt {
 }
 
 footer {
-    margin-left: calc(50% - 624px/2);
-    padding: 20px 0 30px 41px;
-    margin-top: 40px;
+    padding: 10px;
     font-size: 13px;
     color: #aaa;
     background: transparent url("../img/hr.png") 0 0 no-repeat;
     margin-bottom: 30px;
+    width: 85%;
 }
 
 footer a {
@@ -449,10 +449,6 @@ footer a:hover {
 }
 
 @media (max-width: 767px) {
-    header {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
     #downloads {
         margin-bottom: 25px;
     }
@@ -462,8 +458,5 @@ footer a:hover {
     .inner {
         width: 94%;
         margin: 0 auto;
-    }
-    footer {
-        margin-left: calc(50% - 396px/2);
     }
 }

@@ -10,13 +10,13 @@
 
 .prox-icon01 {
     position: fixed;
-    left: 15px;
+    right: 15px;
     top: 15px;
 }
 
 .prox-icon02 {
     position: fixed;
-    left: 15px;
+    right: 15px;
     top: 65px;
 }
 
@@ -30,4 +30,9 @@
 .referencias {
     font-size: 13px;
     color: #aaa;
+}
+
+.imgPrincipal {
+    height: inherit;
+    width: inherit;   
 }

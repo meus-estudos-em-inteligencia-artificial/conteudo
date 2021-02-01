@@ -6,19 +6,115 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg1173"
    version="1.1"
    viewBox="0 0 272.12948 156.81942"
    height="592.70081"
-   width="1028.5197">
+   width="1028.5197"
+   sodipodi:docname="resumoMacro.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     id="namedview850"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.93639151"
+     inkscape:cx="539.15798"
+     inkscape:cy="367.8334"
+     inkscape:window-x="1420"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1173">
+    <sodipodi:guide
+       position="150.03758,173.77287"
+       orientation="1,0"
+       id="guide1240"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="79.398418,184.2275"
+       orientation="1,0"
+       id="guide1242"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
   <defs
      id="defs1167">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient847">
+      <stop
+         style="stop-color:#800080;stop-opacity:1;"
+         offset="0"
+         id="stop843" />
+      <stop
+         style="stop-color:#800080;stop-opacity:0;"
+         offset="1"
+         id="stop845" />
+    </linearGradient>
     <circle
        r="101.28978"
        cy="-393.94046"
        cx="-246.66736"
        id="path1028"
        style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.2802484;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient847"
+       id="linearGradient849"
+       x1="268.99435"
+       y1="103.13349"
+       x2="169.52632"
+       y2="102.02343"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:label="Ink Bleed"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       style="color-interpolation-filters:sRGB;"
+       id="filter1022">
+      <feGaussianBlur
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3"
+         id="feGaussianBlur1010" />
+      <feTurbulence
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034"
+         id="feTurbulence1012" />
+      <feDisplacementMap
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1"
+         in2="result0"
+         id="feDisplacementMap1014" />
+      <feColorMatrix
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3"
+         id="feColorMatrix1016" />
+      <feGaussianBlur
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1"
+         id="feGaussianBlur1018" />
+      <feComposite
+         in="result4"
+         in2="result3"
+         id="feComposite1020" />
+    </filter>
   </defs>
   <metadata
      id="metadata1170">
@@ -28,162 +124,152 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <circle
+     style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.16978899;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+     id="circle1148"
+     cx="209.82347"
+     cy="94.773132"
+     r="61.366592" />
+  <circle
+     style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.26458445;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+     id="path910"
+     cx="122.9121"
+     cy="28.538309"
+     r="26.277847" />
   <g
-     transform="translate(0,-140.18068)"
-     id="layer1">
-    <g
-       transform="matrix(0.3212786,0,0,0.3212786,320.86954,309.51673)"
-       id="g1008"
-       style="display:inline">
-      <circle
-         style="opacity:1;fill:#800080;fill-opacity:1;stroke:#800080;stroke-width:0.32511923;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-         id="path930"
-         cx="-704.66254"
-         cy="-343.3118"
-         r="52.94799" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.22839117px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28009239"
-         x="-873.85602"
-         y="-297.05951"
-         id="text934"
-         transform="scale(0.83641867,1.1955735)"><tspan
-           id="tspan932"
-           x="-873.85602"
-           y="-297.05951"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.92591286px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC Bold';fill:#ffffff;stroke-width:0.28009239">Lógica</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.22839117px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28009239"
-         x="-894.99139"
-         y="-276.31693"
-         id="text934-2"
-         transform="scale(0.83641867,1.1955735)"><tspan
-           id="tspan932-3"
-           x="-894.99139"
-           y="-276.31693"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.92591286px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC Bold';fill:#ffffff;stroke-width:0.28009239">Matemática</tspan></text>
-    </g>
-    <g
-       transform="matrix(0.5023706,0,0,0.5023706,576.49385,375.93272)"
-       id="g1026"
-       style="display:inline">
-      <circle
-         style="opacity:1;fill:#800080;fill-opacity:1;stroke:#800080;stroke-width:0.32511923;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-         id="path930-6"
-         cx="-882.49274"
-         cy="-415.05341"
-         r="52.94799" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.22839117px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28009239"
-         x="-1102.2808"
-         y="-357.06555"
-         id="text934-9"
-         transform="scale(0.83641867,1.1955735)"><tspan
-           id="tspan932-8"
-           x="-1102.2808"
-           y="-357.06555"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.92591286px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC Bold';fill:#ffffff;stroke-width:0.28009239">Ciência da</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.22839117px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28009239"
-         x="-1112.0288"
-         y="-336.32297"
-         id="text934-2-2"
-         transform="scale(0.83641867,1.1955735)"><tspan
-           id="tspan932-3-3"
-           x="-1112.0288"
-           y="-336.32297"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.92591286px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC Bold';fill:#ffffff;stroke-width:0.28009239">Computação</tspan></text>
-    </g>
+     id="g918"
+     transform="translate(4.2333512,5.291689)">
+    <text
+       id="text906"
+       y="26.277851"
+       x="109.63385"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93890953px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458445"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46670246px;font-family:'Courier New';-inkscape-font-specification:'Courier New';text-align:center;text-anchor:middle;fill:#800080;stroke:none;stroke-width:0.26458445"
+         y="26.277851"
+         x="109.63385"
+         id="tspan904"
+         sodipodi:role="line">Ciência da</tspan><tspan
+         id="tspan908"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46670246px;font-family:'Courier New';-inkscape-font-specification:'Courier New';text-align:center;text-anchor:middle;fill:#800080;stroke:none;stroke-width:0.26458445"
+         y="36.861229"
+         x="109.63385"
+         sodipodi:role="line">Computação</tspan></text>
     <circle
-       r="61.366592"
-       cy="234.95381"
-       cx="209.82347"
-       id="circle1148"
-       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.16978899;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
-    <g
-       id="g1065"
-       style="display:inline"
-       transform="matrix(0.60585176,0,0,0.60585176,359.26732,473.62335)">
-      <text
-         id="text934-9-2"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.5267849px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40322059"
-         xml:space="preserve"
-         transform="rotate(-115.49037,-256.7717,-387.13665)"><textPath
-           xlink:href="#path1028"
-           id="textPath1054"><tspan
-   id="tspan932-8-8"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.80611801px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC Bold';fill:#800080;stroke-width:0.40322059">Inteligência Artificial</tspan></textPath></text>
-      <circle
-         style="opacity:0.5;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-         id="path1059"
-         cx="-266.47321"
-         cy="-393.48688"
-         r="97.139877" />
-    </g>
-    <g
-       id="g1125"
-       style="display:inline"
-       transform="matrix(0.60585176,0,0,0.60585176,359.26732,526.33245)">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.12633657px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.22105375"
-         x="-509.18347"
-         y="-314.27115"
-         id="text1719"
-         transform="matrix(1.007348,0,0,0.99270561,0,-87.000001)"><tspan
-           id="tspan1717"
-           x="-509.18347"
-           y="-314.27115"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.22116089px;font-family:'Copperplate Gothic Bold';-inkscape-font-specification:'Copperplate Gothic Bold, Bold';fill:#800080;stroke-width:0.22105375">Psicologia</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.81845546px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.2045601"
-         x="-479.32767"
-         y="-399.85684"
-         id="text1719-7"
-         transform="matrix(1.1848112,0,0,0.84401634,0,-87.000001)"><tspan
-           id="tspan1717-6"
-           x="-479.32767"
-           y="-399.85684"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.63777161px;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua Italic';fill:#800080;stroke-width:0.2045601">Filosofia</tspan></text>
-      <text
-         transform="translate(0,-87.000001)"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.0091877px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.21477792"
-         id="text1719-1"
-         x="-512.7262"
-         y="-360.25107"><tspan
-           id="tspan1717-4"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.61868095px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#800080;stroke-width:0.21477792">Biologia</tspan></text>
-      <text
-         transform="translate(0,-87.000001)"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.0091877px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.21477792"
-         id="text1719-1-4"
-         x="-593.89325"
-         y="-388.8941"><tspan
-           id="tspan1717-4-1"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.61868095px;font-family:'Copperplate Gothic Light';-inkscape-font-specification:'Copperplate Gothic Light, Italic';fill:#800080;stroke-width:0.21477792">Engenharia</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.97535038px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.26653662"
-         id="text1719-1-0"
-         x="-691.4184"
-         y="-328.48514"
-         transform="matrix(0.78336177,0,0,1.2765494,0,-87.000001)"><tspan
-           id="tspan1717-4-7"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.58751869px;font-family:'Vladimir Script';-inkscape-font-specification:'Vladimir Script';fill:#800080;stroke-width:0.26653662">Linguística</tspan></text>
-      <path
-         style="fill:none;stroke:#800080;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -464.62724,-393.24998 87.407,-2e-5 c 6.37041,-16.41349 2.83054,-31.42864 -16.96169,-45.82962 -7.88395,-5.12473 -16.78346,-8.47794 -26.1276,-14.31583 -4.81365,-3.61384 -8.43502,-6.66133 -7.1343,-10.91409 17.99719,-36.73329 26.39921,-54.47635 42.54943,-74.19205 7.61628,-8.07956 10.21444,1.29733 8.76027,7.18627 -1.70484,7.35619 -13.80221,25.82296 -19.60694,39.41354 -2.82722,6.2693 2.04727,8.44175 4.77194,3.44903 8.09951,-16.022 12.73885,-28.63525 24.94643,-46.25484 4.15005,-5.00702 10.0651,-3.50331 8.36272,4.20498 -0.46847,3.7426 -16.47552,29.08925 -25.18266,45.26266 -2.01118,3.7135 0.15643,6.09272 3.73252,0.5197 7.91458,-12.73379 11.96149,-23.49255 21.73363,-35.52976 4.90908,-6.22597 7.99411,-0.70125 7.65401,2.26788 0.36531,5.07001 -16.54432,28.03235 -22.58407,39.26227 -1.27854,4.58267 1.53279,4.01024 3.40178,1.18117 5.69399,-8.21853 6.53875,-12.4499 14.17411,-21.92264 5.03715,-6.05512 6.7822,2.03811 5.38616,6.99258 -2.48644,7.89293 -12.8485,17.60223 -13.13467,24.00149 -0.28896,4.331 16.16338,4.67738 25.04093,8.69344 5.3095,3.2277 -5.03969,13.26066 -3.96875,19.74925 3.72574,13.80962 4.54874,29.34983 2.55133,34.67933 -6.53782,11.97295 -11.91535,7.72882 -16.81994,2.26785 -3.09937,-5.34845 -6.45915,-13.12848 -6.42559,-29.48213 -0.51167,-14.80696 -21.73212,-12.23531 -34.20685,-14.74107 -6.51963,-1.18293 -9.73288,-4.63023 -9.73288,-4.63023 -10.52023,-10.14235 -21.19689,-23.30852 -22.58408,-28.2537 -1.27592,-5.20519 2.73851,-12.86786 13.04017,-8.40999 2.29606,1.13808 8.60309,3.20886 16.44197,15.9695 6.66359,9.03818 7.86401,9.69614 15.11905,10.58334 21.72956,1.51597 39.98077,6.13231 57.83035,11.33927 13.34183,3.43613 15.09978,-6.96785 11.36221,-10.33504 l -30.1269,-25.33064 67.76077,-83.76922 54.17439,40.18372 c -4.23298,3.65051 -7.25023,10.04633 -6.40856,14.33378 1.1239,2.86929 3.9337,5.24508 6.99256,6.04762 2.22013,0.3335 2.70763,-0.69239 2.2564,-2.49598 -2.41429,-0.97169 -5.31497,-0.91652 -6.22515,-5.06355 -0.58634,-2.14646 2.36277,-9.3217 6.81504,-11.62277 4.24497,-1.65027 7.15724,-0.46856 10.0049,0.85045 2.36905,1.44846 9.86329,6.33788 10.67783,15.78051 -0.10156,3.87641 -5.45197,5.83301 -8.2439,4.18541 0.15737,-1.84151 -0.17526,-3.48257 -1.3506,-5.25727 -1.24764,-0.64037 -2.46712,-0.21275 -2.51695,1.65225 2.00893,5.22642 0.62346,7.26846 -2.32321,8.42422 -1.05166,1.35836 -0.0573,3.26224 2.18008,2.35564 1.31684,-0.83083 2.67606,-1.69904 3.61649,-4.09567 0,0 5.45265,2.02025 9.73288,-2.6067 13.73488,7.27156 8.23777,25.67589 1.59493,26.67026 -5.1586,-3.285 -9.80493,-5.70695 -16.75787,-4.29138 -1.50403,-1.49812 -2.88394,-3.04278 -5.7661,-4.0241 -1.17869,-0.2692 -2.92859,1.43215 -0.77865,2.89318 3.86905,2.20036 5.61641,3.88324 4.18576,7.76948 -0.57351,1.72721 2.02523,2.2077 2.71404,1.05263 0.66602,-0.93866 0.94184,-3.15739 0.48394,-4.9387 5.30341,-1.21615 12.67437,1.43468 17.84316,7.39653 2.5386,3.67717 4.7927,9.67121 -0.81131,20.31147 -3.53542,6.42117 -7.74224,11.06042 -13.50889,12.37299 -0.86034,-1.61402 -1.21539,-3.27886 -3.25094,-4.56339 -1.1652,-0.64376 -2.82343,0.7585 -1.67797,2.09131 3.69747,3.77006 3.14188,6.57371 0.90105,8.99216 -0.93091,1.12021 0.36301,2.70264 2.11228,1.90611 1.49891,-1.51225 2.31023,-3.38453 2.30028,-5.59137 3.433,-0.46522 7.09005,-2.51162 10.25597,-6.00373 1.64775,4.77141 -0.0686,10.96225 -3.6748,17.87084 -5.26129,8.33102 -20.80769,14.57538 -28.35903,-3.4e-4 -0.83137,-2.34814 -1.65006,-4.71055 -1.78457,-7.84266 1.98819,-1.76389 3.17142,-3.49437 3.60028,-4.79054 0.93253,-2.56808 -1.85341,-3.2273 -2.51221,-1.35436 -2.2077,4.47299 -4.68581,4.76172 -7.6902,4.04981 -1.4923,-0.29781 -2.3264,1.3684 -1.4356,2.32895 2.08685,1.37644 3.8889,0.95429 5.25827,0.72155 0.15317,11.66572 9.57002,19.39208 18.23833,18.45975 -4.31634,8.34429 -10.74823,15.83864 -19.01148,14.8146 3.49663,-14.5987 -5.89451,-23.08425 -13.17283,-25.81979 0.37887,-4.27362 1.60081,-8.82645 -5.10842,-14.94054 1.07472,-0.94482 2.20269,-2.31563 3.36642,-3.97252 1.20424,-2.59737 -1.38958,-3.86159 -2.63339,-1.74003 -1.83126,3.17467 -4.1523,4.90202 -7.78945,3.62794 -1.53501,-0.47266 -2.53472,1.07574 -1.56923,1.97193 1.63163,1.34601 3.32568,1.45074 5.72303,1.196 6.78353,5.57335 5.85548,10.3923 4.60925,15.18013 15.18257,6.38068 15.64609,17.62739 13.38272,24.63932 -5.4263,11.17754 -12.81696,19.36649 -25.88836,12.96931 1.87454,-2.31397 2.84532,-6.4334 0.43709,-10.11561 -1.22345,-2.16575 -3.74847,-0.46009 -2.54266,1.34585 1.39319,3.09345 2.10557,8.76976 -6.2836,9.40551 -4.77689,0.74576 -9.94793,-1.1799 -14.50132,-4.14922 -4.63056,-3.44688 -8.07509,-8.57777 -8.44911,-15.38534 0.0512,-6.26569 2.04705,-10.64641 5.67439,-10.73891 1.63942,0.11484 3.43828,1.57859 4.76909,3.03479 -1.40386,1.07693 -2.20849,2.29166 -2.94455,3.45763 -0.67132,1.35043 1.25018,3.02505 2.62241,1.2484 1.96641,-2.56653 3.90488,-4.44019 8.24719,-2.75557 1.73127,0.81883 2.6987,-1.04403 1.83976,-2.043 -1.64729,-1.32006 -3.41713,-2.19707 -6.95243,-1.2461 -3.0374,-3.44911 -6.22035,-5.62476 -9.78971,-4.41928 0.32202,-1.20068 1.36198,-3.5428 1.6736,-4.37415 2.01795,-4.39756 4.21545,-4.34773 6.88097,-6.11371 0.70604,-0.52415 0.64233,-0.93834 0.76268,-1.37883 -0.34257,-5.61407 3.85356,-10.80214 6.39889,-13.31933 2.50921,-2.87354 4.12163,-9.14293 7.94127,-11.5435 3.64346,-5.74979 5.0962,-14.98404 6.47521,-17.46924 2.4531,-5.89428 6.71973,-9.55546 11.66191,-12.55793 4.91091,-2.34589 6.96594,0.0649 8.68199,1.52615 1.00226,0.89901 2.65656,0.40192 2.39101,-1.30948 -1.14403,-3.06639 -5.10833,-4.23767 -7.58656,-4.0504 l 6.24842,-12.14248 c 6.64041,-4.77896 10.43841,0.80482 12.94568,5.57515 0.95566,1.37382 2.66443,0.74387 2.64584,-1.03943 -1.45908,-3.78761 -4.38441,-8.66164 -10.18174,-9.28405 -1.65574,-0.11731 -3.18609,-0.0465 -4.46484,0.40161 v 0 c 4.6493,-4.86708 9.51139,-9.74126 6.80357,-14.3631 l -41.38839,-30.89956 -54.42857,65.48438 38.27009,30.80506"
-         id="path961" />
-    </g>
+       r="29.385983"
+       cy="30.269604"
+       cx="110.47957"
+       id="path912"
+       style="opacity:0.5;fill:none;fill-opacity:1;stroke:#800080;stroke-width:0.26458445;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter1022)" />
+  </g>
+  <g
+     id="g953"
+     transform="translate(0.67295334,8.5385947)">
+    <circle
+       r="23.466425"
+       cy="38.427822"
+       cx="50.577377"
+       id="path926"
+       style="opacity:0.5;fill:none;fill-opacity:0.29803922;stroke:#800080;stroke-width:0.23627703;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter1022)" />
+    <text
+       id="text922"
+       y="35.016434"
+       x="50.52272"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.22176218px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.38688013"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold';text-align:center;text-anchor:middle;fill:#800080;stroke-width:0.38688013"
+         y="35.016434"
+         x="50.52272"
+         id="tspan920"
+         sodipodi:role="line">Lógica</tspan><tspan
+         id="tspan924"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold';text-align:center;text-anchor:middle;fill:#800080;stroke-width:0.38688013"
+         y="44.44759"
+         x="50.52272"
+         sodipodi:role="line">Matemática</tspan></text>
+  </g>
+  <g
+     id="g904"
+     transform="translate(1.0583378,5.291689)">
+    <text
+       transform="scale(1.007348,0.9927056)"
+       id="text1719"
+       y="145.49107"
+       x="48.156979"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.49994826px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.13392581"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.85687733px;font-family:'Copperplate Gothic Bold';-inkscape-font-specification:'Copperplate Gothic Bold, Bold';fill:#800080;stroke-width:0.13392581"
+         y="145.49107"
+         x="48.156979"
+         id="tspan1717">Psicologia</tspan></text>
+    <text
+       transform="scale(1.1848112,0.84401634)"
+       id="text1719-7"
+       y="152.81264"
+       x="12.825974"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.31341791px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.1239331"
+       xml:space="preserve"><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.89757824px;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua Italic';fill:#800080;stroke-width:0.1239331"
+         y="152.81264"
+         x="12.825974"
+         id="tspan1717-6">Filosofia</tspan></text>
+    <text
+       y="115.18393"
+       x="48.631252"
+       id="text1719-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.42897344px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.13012359"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.4918642px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#800080;stroke-width:0.13012359"
+         id="tspan1717-4">Biologia</tspan></text>
+    <text
+       y="97.83049"
+       x="-0.5439505"
+       id="text1719-1-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.42897344px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.13012359"
+       xml:space="preserve"><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.4918642px;font-family:'Copperplate Gothic Light';-inkscape-font-specification:'Copperplate Gothic Light, Italic';fill:#800080;stroke-width:0.13012359"
+         id="tspan1717-4-1">Engenharia</tspan></text>
+    <text
+       transform="scale(0.78336177,1.2765494)"
+       y="62.192944"
+       x="39.72543"
+       id="text1719-1-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.0143249px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.16148168"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.50224304px;font-family:'Vladimir Script';-inkscape-font-specification:'Vladimir Script';fill:#800080;stroke-width:0.16148168"
+         id="tspan1717-4-7">Linguística</tspan></text>
+  </g>
+  <path
+     style="fill:none;stroke:#800080;stroke-width:0.16029827px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 77.772089,154.77978 52.955681,-10e-6 c 3.85953,-9.94415 1.71489,-25.9203 -10.27627,-34.64516 -4.7765,-3.10483 -10.16828,-5.13638 -15.82945,-8.67327 -2.91636,-2.18945 -5.11037,-4.03578 -4.32233,-6.61232 10.90363,-22.25493 15.99401,-33.004595 25.77865,-44.949386 4.61434,-4.895016 6.18844,0.78599 5.30743,4.353814 -1.03288,4.456761 -8.3621,15.644886 -11.8789,23.878763 -1.71288,3.798266 1.24034,5.114449 2.89108,2.089601 4.90711,-9.706957 7.71786,-17.348717 15.11384,-28.023576 2.51432,-3.033512 6.09796,-2.122487 5.06657,2.547594 -0.28382,2.267461 -9.98172,17.623773 -15.25696,27.422462 -1.21847,2.249831 0.0948,3.691285 2.26136,0.314861 4.79506,-7.714789 7.24689,-14.233002 13.16735,-21.525767 2.97418,-3.772015 4.84325,-0.424854 4.6372,1.373999 0.22132,3.071674 -10.02341,16.983448 -13.6826,23.787115 -0.7746,2.776419 0.92864,2.429611 2.06098,0.715614 3.44971,-4.979211 3.96151,-7.542794 8.58741,-13.28187 3.05176,-3.668505 4.109,1.234793 3.26321,4.236467 -1.50641,4.781946 -7.78429,10.664342 -7.95766,14.541349 -0.17507,2.62394 9.79261,2.83379 15.17109,5.26693 3.21677,1.95551 -3.05331,8.034 -2.40448,11.96512 2.25725,8.36658 2.75587,17.78165 1.54573,21.01053 -3.96095,7.25384 -7.21893,4.68252 -10.19039,1.37398 -1.87776,-3.24036 -3.91329,-7.95391 -3.89295,-17.8618 -0.31,-8.97082 -13.16645,-7.41278 -20.72428,-8.9309 -3.94993,-0.71668 -5.89669,-2.80523 -5.89669,-2.80523 -6.3737,-6.14476 -12.84217,-14.121511 -13.682601,-17.117557 -0.773018,-3.153573 1.659131,-7.796015 7.900411,-5.095207 1.39107,0.689508 5.2122,1.944094 9.9614,9.67515 4.03714,5.475794 4.76442,5.874424 9.1599,6.411934 13.16489,0.91845 24.22242,3.71527 35.03662,6.86992 8.08317,2.08178 9.14823,-4.22149 6.88381,-6.2615 l -18.25243,-15.346617 41.05298,-50.75173 32.82165,24.345378 c -2.56456,2.211668 -4.39257,6.086587 -3.88264,8.684146 0.68092,1.738364 2.38324,3.177741 4.23646,3.663961 1.34507,0.202051 1.64042,-0.419486 1.36704,-1.512194 -1.4627,-0.5887 -3.22008,-0.555275 -3.77152,-3.067761 -0.35523,-1.300436 1.43149,-5.647568 4.12891,-7.041675 2.57182,-0.999819 4.33622,-0.283878 6.06148,0.515246 1.4353,0.877552 5.97569,3.839816 6.46918,9.56065 -0.0615,2.34853 -3.30308,3.533939 -4.99458,2.535738 0.0953,-1.115682 -0.10618,-2.109921 -0.81826,-3.185126 -0.75589,-0.387969 -1.49471,-0.128895 -1.5249,1.001018 1.21712,3.166436 0.37773,4.40361 -1.40752,5.103829 -0.63715,0.822965 -0.0347,1.976434 1.32081,1.427169 0.79781,-0.50336 1.62129,-1.029367 2.19105,-2.481369 0,0 3.3035,1.223972 5.89669,-1.579274 8.3213,4.405487 4.99086,15.555783 0.96629,16.158224 -3.12535,-1.990223 -5.94034,-3.457566 -10.15279,-2.59994 -0.91122,-0.907639 -1.74724,-1.843474 -3.4934,-2.438008 -0.71411,-0.163096 -1.77429,0.86767 -0.47175,1.752838 2.34407,1.333092 3.40271,2.352668 2.53595,4.707153 -0.34746,1.046433 1.22699,1.337539 1.64431,0.637738 0.40351,-0.568689 0.57061,-1.912911 0.29319,-2.99212 3.21309,-0.736807 7.67879,0.869203 10.81031,4.4812 1.53802,2.227816 2.90367,5.859316 -0.49153,12.305736 -2.14194,3.89028 -4.69065,6.70098 -8.18438,7.4962 -0.52124,-0.97785 -0.73635,-1.9865 -1.96959,-2.76474 -0.70594,-0.39002 -1.71058,0.45954 -1.0166,1.26703 2.24012,2.2841 1.90351,3.98269 0.5459,5.44791 -0.56399,0.67869 0.21993,1.6374 1.27973,1.15482 0.90812,-0.9162 1.39966,-2.05052 1.39363,-3.38754 2.07989,-0.28185 4.29552,-1.52167 6.21359,-3.63737 0.9983,2.89077 -0.0416,6.6415 -2.22638,10.82708 -3.18756,5.04737 -12.60637,8.83052 -17.18137,-2e-4 -0.50368,-1.42263 -0.99969,-2.8539 -1.08118,-4.75149 1.20455,-1.06866 1.92141,-2.11707 2.18123,-2.90236 0.56498,-1.55588 -1.12289,-1.95527 -1.52202,-0.82054 -1.33754,2.70997 -2.83891,2.88489 -4.65912,2.45358 -0.90412,-0.18043 -1.40946,0.82905 -0.86977,1.411 1.26433,0.83392 2.3561,0.57816 3.18574,0.43715 0.0928,7.0677 5.79801,11.74873 11.04972,11.18388 -2.61506,5.0554 -6.51183,9.59586 -11.51814,8.97545 2.11844,-8.84465 -3.5712,-13.98564 -7.98078,-15.64297 0.22954,-2.58918 0.96985,-5.34752 -3.09494,-9.05175 0.65112,-0.57242 1.3345,-1.40293 2.03955,-2.40676 0.72959,-1.57362 -0.84188,-2.33955 -1.59545,-1.0542 -1.10947,1.92338 -2.51568,2.9699 -4.71925,2.19799 -0.92999,-0.28636 -1.53566,0.65174 -0.95072,1.1947 0.98853,0.81548 2.01487,0.87894 3.46731,0.7246 4.10981,3.37662 3.54755,6.29619 2.79252,9.19691 9.19839,3.86575 9.47921,10.67958 8.10794,14.92777 -3.28753,6.77194 -7.76517,11.73323 -15.6845,7.85748 1.13569,-1.40192 1.72384,-3.89768 0.26481,-6.12856 -0.74123,-1.31212 -2.27102,-0.27874 -1.54048,0.81539 0.84407,1.87417 1.27567,5.31317 -3.80693,5.69834 -2.89408,0.45182 -6.02697,-0.71484 -8.78565,-2.51381 -2.80543,-2.0883 -4.89231,-5.19686 -5.11891,-9.32123 0.031,-3.79608 1.24021,-6.45015 3.43784,-6.50619 0.99325,0.0696 2.08309,0.95639 2.88936,1.83863 -0.85053,0.65246 -1.33801,1.38841 -1.78396,2.09481 -0.40672,0.81816 0.75743,1.83274 1.5888,0.75635 1.19135,-1.55494 2.36577,-2.6901 4.99657,-1.66947 1.04889,0.49609 1.63501,-0.63253 1.11462,-1.23775 -0.99801,-0.79976 -2.07027,-1.3311 -4.21214,-0.75496 -1.84021,-2.08964 -3.76861,-3.40777 -5.93111,-2.67742 0.19509,-0.72744 0.82516,-2.14642 1.01395,-2.65009 1.22258,-2.66427 2.55394,-2.63408 4.16885,-3.704 0.42775,-0.31756 0.38916,-0.5685 0.46207,-0.83537 -0.20755,-3.40129 2.33469,-6.54449 3.87678,-8.06954 1.52021,-1.74094 2.4971,-5.53926 4.81123,-6.99365 2.2074,-3.48352 3.08754,-9.07811 3.92302,-10.583768 1.48621,-3.57106 4.07116,-5.789192 7.06539,-7.608244 2.97528,-1.421262 4.22032,0.03932 5.26,0.924621 0.60722,0.544666 1.60948,0.243503 1.44859,-0.793351 -0.69311,-1.857778 -3.09489,-2.5674 -4.59633,-2.453942 l 3.78562,-7.356543 c 4.0231,-2.895341 6.32413,0.487602 7.84316,3.377714 0.57899,0.832332 1.61425,0.450675 1.60299,-0.62974 -0.88399,-2.29473 -2.6563,-5.24767 -6.16863,-5.624758 -1.00313,-0.07107 -1.93029,-0.02817 -2.70503,0.243316 v 0 c 2.81679,-2.948729 5.76249,-5.90176 4.12196,-8.701909 l -25.07523,-18.720553 -32.97565,39.673827 23.186,18.6633"
+     id="path961"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+  <g
+     id="g1086"
+     transform="translate(1.0583378)">
+    <rect
+       ry="11.90118"
+       y="1.1302299"
+       x="148.90739"
+       height="153.42873"
+       width="120.93462"
+       id="rect957"
+       style="opacity:0.5;fill:url(#linearGradient849);fill-opacity:1;stroke:none;stroke-width:0.28229621;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+    <text
+       id="text961"
+       y="14.692991"
+       x="154.84111"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93890953px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458445"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46670246px;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';fill:#800080;stroke-width:0.26458445"
+         y="14.692991"
+         x="154.84111"
+         id="tspan959"
+         sodipodi:role="line">Inteligência Artificial</tspan></text>
   </g>
 </svg>
