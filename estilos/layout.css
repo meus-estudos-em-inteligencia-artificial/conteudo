@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,600');
+
+* {
+    outline: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
+.grid {
+    display: grid;
+}
+
+.template-site {
+    grid-template-columns: 48px 1fr;
+    grid-template-rows: auto 9px 1fr 9px auto;
+    grid-template-areas: 
+        "menu header" 
+        "menu linha1" 
+        "menu body" 
+        "menu linha2" 
+        "menu footer"
+    ;
+    justify-content: end;
+    column-gap: 10px;
+    padding-right: 10px;
+}
+
+.item_header {
+    grid-area: header;
+}
+
+.item_menu {
+    grid-area: menu;
+}
+
+.item_linha1 {
+    grid-area: linha1;
+}
+
+.item_linha2 {
+    grid-area: linha2;
+    margin-top: -5px;
+}
+
+.item_body {
+    grid-area: body;
+    justify-self: center;
+}
+
+.item_footer {
+    grid-area: footer;
+}
+
+.imgPrincipal {
+    height: auto;
+    width: 100%;
+    max-width: 636px;   
+}
+
+.linha {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(194,132,194,15), rgba(255,0,0,0));
+    height: 3px;
+    width: 100%;
+    align-self: center;
+}
