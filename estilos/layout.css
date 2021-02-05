@@ -19,13 +19,14 @@ html, body {
 .template-site {
     grid-template-columns: 48px 1fr;
     grid-template-rows: auto 9px 1fr 9px auto;
-    grid-template-areas:
-        "menu header"
-        "menu linha1"
-        "menu body"
-        "menu linha2"
+    grid-template-areas: 
+        "menu header" 
+        "menu linha1" 
+        "menu body" 
+        "menu linha2" 
         "menu footer"
     ;
+    justify-content: end;
     column-gap: 10px;
     padding-right: 10px;
 }
@@ -49,7 +50,6 @@ html, body {
 .item_body {
     grid-area: body;
     justify-self: center;
-    overflow-y: auto;
 }
 
 .item_footer {
