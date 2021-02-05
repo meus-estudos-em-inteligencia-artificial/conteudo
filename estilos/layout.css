@@ -16,12 +16,6 @@ html, body {
     display: grid;
 }
 
-@media (max-width: 363px) {
-    .grid {
-        width: min-content;
-    }
-}
-
 .template-site {
     grid-template-columns: 48px 1fr;
     grid-template-rows: auto 9px auto 9px auto;
@@ -32,10 +26,8 @@ html, body {
         "menu linha2"
         "menu footer"
     ;
-    justify-content: end;
     column-gap: 10px;
     padding-right: 10px;
-    align-items: center;
 }
 
 .item_header {
