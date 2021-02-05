@@ -16,19 +16,26 @@ html, body {
     display: grid;
 }
 
+@media (max-width: 363px) {
+    .grid {
+        width: min-content;
+    }
+}
+
 .template-site {
     grid-template-columns: 48px 1fr;
-    grid-template-rows: auto 9px 1fr 9px auto;
-    grid-template-areas: 
-        "menu header" 
-        "menu linha1" 
-        "menu body" 
-        "menu linha2" 
+    grid-template-rows: auto 9px auto 9px auto;
+    grid-template-areas:
+        "menu header"
+        "menu linha1"
+        "menu body"
+        "menu linha2"
         "menu footer"
     ;
     justify-content: end;
     column-gap: 10px;
     padding-right: 10px;
+    align-items: center;
 }
 
 .item_header {
@@ -45,12 +52,12 @@ html, body {
 
 .item_linha2 {
     grid-area: linha2;
-    margin-top: -5px;
 }
 
 .item_body {
     grid-area: body;
     justify-self: center;
+    overflow-y: auto;
 }
 
 .item_footer {
@@ -64,7 +71,7 @@ html, body {
 }
 
 .linha {
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(194,132,194,15), rgba(255,0,0,0));
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,127,15), rgba(255,0,0,0));
     height: 3px;
     width: 100%;
     align-self: center;
