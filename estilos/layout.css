@@ -91,3 +91,11 @@ a.texto-body:hover {
     color: rgba(255,0,127,15);
     text-decoration: underline;
 }
+
+.add-margin1 {
+    margin: 10px 0 0 30px;
+}
+
+.add-margin2 {
+    margin: 10px 0 20px 30px;
+}
