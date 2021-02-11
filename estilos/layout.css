@@ -27,7 +27,15 @@ html, body {
         "menu-esq footer"
     ;
     column-gap: 10px;
-    padding-right: 10px;
+    height: 99vh;
+    align-items: center;
+}
+
+@media only screen and (max-width: 850px) and (max-height: 666px) {
+    .template-site {
+        padding-right: 10px;
+        height: unset;
+    }
 }
 
 .item_header {
@@ -54,6 +62,7 @@ html, body {
 
 .item_footer {
     grid-area: footer;
+    align-self: end;
 }
 
 .imgPrincipal {
@@ -98,4 +107,85 @@ a.texto-body:hover {
 
 .add-margin2 {
     margin: 10px 0 20px 30px;
+}
+
+.template-intro {
+    grid-template-columns: 100%;
+    grid-template-rows: auto calc(100vh - 696px);
+    grid-template-areas: 
+        "cena"
+        "footer"
+    ;
+    justify-items: center;
+}
+
+@media only screen and (max-width: 1025px) and (max-height: 831px) {
+    .template-intro {
+        grid-template-rows: unset;
+    }
+}
+
+.item_cena {
+    grid-area: cena;
+}
+
+.template-cena {
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: min-content min-content auto;
+    grid-template-areas: 
+        "btn-intro btn-intro btn-intro btn-intro btn-intro btn-intro btn-intro btn-intro"
+        "img img img img img img img img"
+        "btn-voltar btn-cena1 btn-cena2 btn-cena3 btn-cena4 btn-cena5 btn-cena6 btn-continuar"
+    ;
+    justify-items: center;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.item_btn-intro {
+    grid-area: btn-intro;
+    margin-top: 10px;
+}
+
+.item_btn-voltar {
+    grid-area: btn-voltar;
+}
+
+.item_btn-cena1 {
+    grid-area: btn-cena1;
+}
+
+.item_btn-cena2 {
+    grid-area: btn-cena2;
+}
+
+.item_btn-cena3 {
+    grid-area: btn-cena3;
+}
+
+.item_btn-cena4 {
+    grid-area: btn-cena4;
+}
+
+.item_btn-cena5 {
+    grid-area: btn-cena5;
+}
+
+.item_btn-cena6 {
+    grid-area: btn-cena6;
+}
+
+.item_btn-continuar {
+    grid-area: btn-continuar;
+}
+
+.item_img {
+    grid-area: img;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .item_img {
+        width: 100%;
+    }
 }

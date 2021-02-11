@@ -1,0 +1,19 @@
+.btn-intro {
+    height: 38px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-variant: all-petite-caps;
+}
+
+.btn-intro:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-desativado {
+    opacity: 0.5;
+}
