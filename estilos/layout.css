@@ -111,7 +111,6 @@ a.texto-body:hover {
 
 .template-intro {
     grid-template-columns: 100%;
-    grid-template-rows: auto calc(100vh - 696px);
     grid-template-areas: 
         "cena"
         "footer"

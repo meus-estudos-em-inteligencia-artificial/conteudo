@@ -17,3 +17,23 @@
 .btn-desativado {
     opacity: 0.5;
 }
+
+.btn-ativado {
+    color: rgba(255,0,127,15);
+}
+
+.btn-pos-verIntro {
+    position: absolute;
+    right: -25px;
+    top: 40px;
+    transform: rotate(90deg);
+    height: 22px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 4px;
+    text-align: center;
+    font-weight: bold;
+    font-variant: all-petite-caps;
+    font-size: 10px;
+}
