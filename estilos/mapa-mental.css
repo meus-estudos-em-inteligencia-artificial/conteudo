@@ -1,0 +1,94 @@
+.losango {
+    width: 100px;
+    height: 100px;
+    transform:rotate(-45deg);
+    display: inline-block;
+}
+
+.retangulo {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+}
+
+.pesquisa {
+    background-color: lightpink;
+    border: 1px solid darkred;
+    color: darkred;
+}
+
+.dados {
+    background-color: rgb(255, 255, 110);
+    border: 1px solid rgb(145, 107, 14);
+    color: rgb(145, 107, 14);
+}
+
+.info {
+    background-color: lightblue;
+    border: 1px solid navy;
+    color: navy;
+}
+
+.default {
+    background-color: #ddd;
+    border: 1px solid #333;   
+    color: #333;   
+}
+
+.forma {
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.losango-alinhar-texto {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transform:  translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.template-fluxo-01_LOG-MAT {
+    grid-template-columns: repeat(5, max-content);
+    grid-template-areas:
+        "ret_prob icon-01 los_pes icon-02 ret_obs"
+        ". . icon-03 . ."
+        ". ret_exp ret_exp ret_exp ."
+    ;
+    row-gap: 25px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.item_ret_prob {
+ grid-area: ret_prob;
+}
+
+.item_los_pes {
+    grid-area: los_pes;
+}
+
+.item_ret_obs {
+    grid-area: ret_obs;
+}
+
+.item_ret_exp {
+    grid-area: ret_exp;
+    margin-top: -15px;
+}
+
+.item_icon-01 {
+    grid-area: icon-01;
+}
+
+.item_icon-02 {
+    grid-area: icon-02;
+}
+
+.item_icon-03 {
+    grid-area: icon-03;
+}

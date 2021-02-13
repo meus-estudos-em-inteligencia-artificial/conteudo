@@ -57,6 +57,7 @@ html, body {
 .item_body {
     grid-area: body;
     justify-self: center;
+    align-self: start;
     padding: 9px;
 }
 
