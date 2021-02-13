@@ -57,7 +57,7 @@ html, body {
 .item_body {
     grid-area: body;
     justify-self: center;
-    align-self: start;
+    align-self: center;
     padding: 9px;
 }
 
@@ -68,7 +68,7 @@ html, body {
 
 .imgPrincipal {
     width: 100%;
-    height: auto;
+    height: calc(100vh - 375px);
 }
 
 .linha {
