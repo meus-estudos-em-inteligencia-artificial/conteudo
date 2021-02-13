@@ -66,6 +66,10 @@ html, body {
     align-self: end;
 }
 
+.imgPrincipal {
+    width: 100%;
+}
+
 .linha {
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,127,15), rgba(255,0,0,0));
     height: 3px;
