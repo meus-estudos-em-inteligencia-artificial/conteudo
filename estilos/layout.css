@@ -68,6 +68,7 @@ html, body {
 
 .imgPrincipal {
     width: 100%;
+    height: auto;
 }
 
 .linha {
