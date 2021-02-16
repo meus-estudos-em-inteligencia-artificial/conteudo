@@ -9,7 +9,8 @@
     font-variant: all-petite-caps;
 }
 
-.btn-intro:hover {
+.btn-intro:hover,
+.btn-pos-verIntro:hover {
     background-color: #000;
     color: #fff;
 }
