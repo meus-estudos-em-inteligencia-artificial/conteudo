@@ -1,0 +1,20 @@
+<app-conteudo [nomeBase]="nomeBase" [extensao]="extensao" [atual]="atual" class="item_img"></app-conteudo>
+
+<a [ngClass]="{'btn-intro': true, 'btn-desativado': atual === 1, 'item_btn-voltar': true}" title="Voltar" (click)="decrementarAtual()">
+    <fa-icon [icon]="faAnguloEsq"></fa-icon>
+</a>
+
+<app-botao [valor]="1" [atual]="atual" class="item_btn-cena1" (valorEmitido)="mudarAtual($event)"></app-botao>
+<app-botao [valor]="2" [atual]="atual" class="item_btn-cena2" (valorEmitido)="mudarAtual($event)"></app-botao>
+<app-botao [valor]="3" [atual]="atual" class="item_btn-cena3" (valorEmitido)="mudarAtual($event)"></app-botao>
+<app-botao [valor]="4" [atual]="atual" class="item_btn-cena4" (valorEmitido)="mudarAtual($event)"></app-botao>
+<app-botao [valor]="5" [atual]="atual" class="item_btn-cena5" (valorEmitido)="mudarAtual($event)"></app-botao>
+<app-botao [valor]="6" [atual]="atual" class="item_btn-cena6" (valorEmitido)="mudarAtual($event)"></app-botao>
+
+<a class="btn-intro item_btn-continuar" title="Continuar" *ngIf="atual !== 6" (click)="incrementarAtual()">
+    <fa-icon [icon]="faAnguloDir"></fa-icon>
+</a>
+
+<a routerLink="/inicio" routerLinkActive="active" class="btn-intro item_btn-continuar" title="Continuar" *ngIf="atual === 6">
+    <fa-icon [icon]="faAnguloDir"></fa-icon>
+</a>

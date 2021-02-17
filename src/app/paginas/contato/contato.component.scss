@@ -1,0 +1,46 @@
+:host {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 9px 1fr;
+    grid-template-areas: 
+        "topo" 
+        "linha-divisoria" 
+        "conteudo" 
+    ;
+    align-items: center;
+}
+
+.topo {
+    grid-area: topo;
+}
+
+.linha-divisoria {
+    grid-area: linha-divisoria;
+}
+
+.conteudo {
+    grid-area: conteudo;
+}
+
+.contato_marina {
+    border-radius: 93px;
+    height: auto;
+    width: 190px;
+    float: left;
+
+    @media (max-width: 600px) {
+        float: none;
+    }
+}
+
+.contato_texto {
+    padding: 130px 30px 30px 17px;
+    margin-left: 190px;
+    text-align: left;
+
+    @media (max-width: 600px) {
+        padding: 30px;
+        margin-left: 0;
+        text-align: left;
+    }
+}

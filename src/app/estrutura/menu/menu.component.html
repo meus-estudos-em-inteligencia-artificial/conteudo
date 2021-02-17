@@ -1,0 +1,45 @@
+<div class="button" tabindex="0">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</div>
+
+<div class="nav-content" tabindex="0">
+    <ul>
+        <li>
+            <a routerLink="/inicio" routerLinkActive="active"  title="Início">
+                <fa-icon [icon]="faInicio" [ngClass]="{'ativo': router.url === '/inicio'}"></fa-icon>
+            </a>
+        </li>
+        <li>
+            <a routerLink="/log-mat" routerLinkActive="active"  title="Lógica Matemática">
+                <fa-icon [icon]="faLogMat" [ngClass]="{'ativo': router.url === '/log-mat'}"></fa-icon>
+            </a>
+        </li>
+        <li>
+            <a routerLink="/cie-com" routerLinkActive="active"  title="Ciência da Computação">
+                <fa-icon [icon]="faCieCom" [ngClass]="{'ativo': router.url === '/cie-com'}"></fa-icon>
+            </a>
+        </li>
+        <li>
+            <a routerLink="/int-art" routerLinkActive="active"  title="Inteligência Artificial">
+                <fa-icon [icon]="faIntArt" [ngClass]="{'ativo': router.url === '/int-art'}"></fa-icon>
+            </a>
+        </li>
+        <li>
+            <a routerLink="/centralizador" routerLinkActive="active"  title="Centralizador de Informações sobre IA">
+                <fa-icon [icon]="faCentralizador" [ngClass]="{'ativo': router.url === '/centralizador'}"></fa-icon>
+            </a>
+        </li>
+        <li>
+            <a routerLink="/referencia" routerLinkActive="active"  title="Referências Bibliográficas">
+                <fa-icon [icon]="faReferencia" [ngClass]="{'ativo': router.url === '/referencia'}"></fa-icon>
+            </a>
+        </li>
+        <li>
+            <a routerLink="/contato" routerLinkActive="active"  title="Contato">
+                <fa-icon [icon]="faContato" [ngClass]="{'ativo': router.url === '/contato'}"></fa-icon>
+            </a>
+        </li>
+    </ul>
+</div>

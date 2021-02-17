@@ -1,0 +1,4 @@
+<img src="../../../../assets/img/preHome/{{nomeBase}}{{atual}}.{{extensao}}" alt="Quadro {{atual}}" *ngIf="extensao === 'png' || extensao === 'jpg'"/>
+<video controls *ngIf="extensao === 'mp4' || extensao === 'webm' || extensao === 'ogg'">
+    <source src="../../../../assets/video/{{nomeBase}}{{atual}}.{{extensao}}" type="video/{{extensao}}">
+</video>

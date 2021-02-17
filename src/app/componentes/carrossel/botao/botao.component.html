@@ -1,0 +1,4 @@
+<a [ngClass]="{ 'btn-ativado': valor === atual }" title="Quadro {{valor}}" (click)="mudarCena()">
+   <fa-icon [icon]="faCirculo" *ngIf="valor === atual"></fa-icon>
+   <fa-icon [icon]="faCirculoOco" *ngIf="valor !== atual"></fa-icon>
+</a>

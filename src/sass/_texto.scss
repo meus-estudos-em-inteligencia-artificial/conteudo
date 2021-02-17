@@ -1,0 +1,22 @@
+.texto-autor {
+    font-size: 10px;
+    color: #ef0eb773;
+}
+
+h3 {
+    color: rgba(255,0,127,15);
+    padding-bottom: 9px;
+    font-variant: small-caps;
+    font-weight: lighter;
+}
+
+.texto-body {
+    color: #5a5a5a;
+    font-size: 12px;
+    padding: 0 9px 18px 9px;
+}
+
+a.texto-body:hover {
+    color: rgba(255,0,127,15);
+    text-decoration: underline;
+}

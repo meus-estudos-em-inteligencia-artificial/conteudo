@@ -1,0 +1,53 @@
+:host {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: min-content auto;
+    grid-template-areas: 
+        "img img img img img img img img"
+        "btn-voltar btn-cena1 btn-cena2 btn-cena3 btn-cena4 btn-cena5 btn-cena6 btn-continuar"
+    ;
+    justify-items: center;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.item_btn-voltar {
+    grid-area: btn-voltar;
+}
+
+.item_btn-cena1 {
+    grid-area: btn-cena1;
+}
+
+.item_btn-cena2 {
+    grid-area: btn-cena2;
+}
+
+.item_btn-cena3 {
+    grid-area: btn-cena3;
+}
+
+.item_btn-cena4 {
+    grid-area: btn-cena4;
+}
+
+.item_btn-cena5 {
+    grid-area: btn-cena5;
+}
+
+.item_btn-cena6 {
+    grid-area: btn-cena6;
+}
+
+.item_btn-continuar {
+    grid-area: btn-continuar;
+}
+
+.item_img {
+    grid-area: img;
+    padding: 10px;
+
+    @media (max-width: 600px) {
+        width: 100%;
+    }
+}

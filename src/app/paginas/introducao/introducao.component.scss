@@ -1,0 +1,21 @@
+:host {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+        "botao"
+        "cena"
+    ;
+    justify-items: center;
+
+    @media only screen and (max-width: 1025px) and (max-height: 831px) {
+        grid-template-rows: unset;
+    }
+}
+
+.botao {
+    grid-area: botao;
+}
+
+.cena {
+    grid-area: cena;
+}

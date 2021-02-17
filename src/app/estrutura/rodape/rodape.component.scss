@@ -1,0 +1,40 @@
+:host {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 9px auto;
+    grid-template-areas: 
+        "linha-divisoria" 
+        "rodape" 
+    ;
+    align-items: center;
+}
+
+.linha-divisoria {
+    grid-area: linha-divisoria;
+}
+
+.rodape {
+    grid-area: rodape;
+}
+
+footer {
+    padding: 10px;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: -2px;
+
+    a {
+        color: #666;
+
+        &:hover {
+            color: #444;
+        }
+    }
+}
+
+.marina {
+    border-radius: 51%;
+    width: 63px;
+    float: left;
+    margin-right: 12px;
+}
