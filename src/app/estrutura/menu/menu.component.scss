@@ -10,7 +10,7 @@ a {
 
 .ativo {
     color: #FF007F;
-    margin: 10px 0 10px -5px;
+    margin: 10px 0;
     display: block;
 }
 
@@ -98,6 +98,7 @@ ul {
     transition: transform .3s;
     will-change: transform;
     contain: paint;
+    display: inline-flex;
 
     ul {
         height: 100%;
@@ -118,12 +119,4 @@ ul {
             }
         }
     }
-}
-
-.add-espaco-left-icon {
-    margin-left: 2px;
-}
-
-.del-espaco-left-icon {
-    margin-left: -2px;
 }

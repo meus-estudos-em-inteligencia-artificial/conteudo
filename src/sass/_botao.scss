@@ -7,6 +7,8 @@
     text-align: center;
     font-weight: bold;
     font-variant: all-petite-caps;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .btn-intro:hover,
@@ -21,6 +23,7 @@
 
 .btn-ativado {
     color: rgba(255,0,127,15);
+    cursor: pointer;
 }
 
 .btn-pos-verIntro {
@@ -37,4 +40,7 @@
     font-weight: bold;
     font-variant: all-petite-caps;
     font-size: 10px;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
 }
