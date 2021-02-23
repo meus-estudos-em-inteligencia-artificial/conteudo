@@ -1,6 +1,6 @@
 :host {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: calc(100vw - 93px);
     grid-template-rows: auto 9px 1fr;
     grid-template-areas: 
         "topo" 

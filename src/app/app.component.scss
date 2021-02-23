@@ -1,6 +1,7 @@
 :host {
     display: grid;
     grid-template-columns: 48px 1fr;
+    grid-template-rows: auto calc(100vh - 21%) auto;
     grid-template-areas: 
         "menu corpo" 
         "menu rodape"

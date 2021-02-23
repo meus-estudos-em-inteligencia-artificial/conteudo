@@ -1,0 +1,23 @@
+:host {
+    display: grid;
+    grid-template-columns: calc(100vw - 93px);
+    grid-template-rows: auto 9px 1fr;
+    grid-template-areas: 
+        "topo" 
+        "linha-divisoria" 
+        "conteudo" 
+    ;
+    align-items: center;
+}
+
+.topo {
+    grid-area: topo;
+}
+
+.linha-divisoria {
+    grid-area: linha-divisoria;
+}
+
+.conteudo {
+    grid-area: conteudo;
+}

@@ -21,7 +21,7 @@ ul {
 
 :host {
     position: fixed;
-    height: 100vh;
+    height: calc(100vh + 50%);
     width: 100%;
     pointer-events: none;
 }

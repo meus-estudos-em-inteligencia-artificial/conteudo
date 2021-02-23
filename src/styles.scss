@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,600');
 @import 'sass/botao';
 @import 'sass/texto';
+@import 'sass/imagem';
 
 * {
     outline: none;
@@ -14,20 +15,4 @@
 html, body {
     height: 100%;
     font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
-}
-
-.linha {
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,127,15), rgba(255,0,0,0));
-    height: 3px;
-    width: 100%;
-    align-self: center;
-}
-
-fa-icon {
-    cursor: pointer;
-}
-
-.ajustar-img {
-    width: auto;
-    height: 100vh;
 }
