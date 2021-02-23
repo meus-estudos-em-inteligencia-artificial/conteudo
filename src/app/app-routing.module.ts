@@ -18,8 +18,8 @@ const routes: Routes = [
   { path: 'centralizador', component: CentralizadorComponent},
   { path: 'referencia', component: ReferenciaComponent},
   { path: 'contato', component: ContatoComponent},
-  { path: '', redirectTo: '/inicio', pathMatch: 'full' }, 
-  { path: '**', component: InicioComponent },
+  { path: '', redirectTo: '/introducao', pathMatch: 'full' }, 
+  { path: '**', component: IntroducaoComponent },
 ];
 
 @NgModule({

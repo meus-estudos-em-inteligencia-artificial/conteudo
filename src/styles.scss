@@ -16,3 +16,31 @@ html, body {
     height: 100%;
     font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
 }
+
+.template-com-menu {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    grid-template-areas: 
+        "menu corpo" 
+        "menu rodape"
+    ;
+    column-gap: 10px;
+
+    @media only screen and (max-width: 850px) and (max-height: 666px) {
+        padding-right: 10px;
+    }
+}
+
+.template-sem-menu {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+        "corpo" 
+        "rodape"
+    ;
+    column-gap: 10px;
+
+    @media only screen and (max-width: 850px) and (max-height: 666px) {
+        padding-right: 10px;
+    }
+}
